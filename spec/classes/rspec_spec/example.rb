@@ -11,15 +11,3 @@ describe 'rspec' do
     end
   end
 end
-
-describe 'rspec::example1' do
-  it 'includes git' do
-    is_expected.to contain_package('git')
-  end
-end
-
-describe 'rspec::example2' do
-  it 'includes git' do
-    is_expected.to contain_package('git')
-  end
-end

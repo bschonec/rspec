@@ -4,3 +4,5 @@
 fixtures:
   forge_modules:
 #     stdlib: "puppetlabs/stdlib"
+  repositories:
+    git:  https://github.com/puppetlabs-toy-chest/puppetlabs-git.git

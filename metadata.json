@@ -24,6 +24,7 @@
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
+        "7",
         "8"
       ]
     },
