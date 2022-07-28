@@ -17,7 +17,7 @@ default:
     - '[ -z "$RUBYGEMS_VERSION" ] || (yes || true) | gem update --system $RUBYGEMS_VERSION'
     - gem --version
     - bundle -v
-    - sleep 9000
+    - sleep 900
     - bundle install --without system_tests  --path vendor/bundle --jobs $(nproc)
 
 validate lint check rubocop-Ruby 2.5.0-Puppet ~> 6:
